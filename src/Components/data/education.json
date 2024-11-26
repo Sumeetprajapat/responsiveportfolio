@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "heading":"Graduation",
+        "college":"MULUND COLLEGE OF COMMERCE (AUTONOMOUS)",
+        "completed":"Start Year : 2021 Completion Year 2024",
+        "cgpi":"CGPI : 7.22",
+        "imgSrc":"/assets/graduation.png"
+    },
+    {
+        "id":2,
+        "heading":"College",
+        "college":" NAVJEEVAN VIDYA MANDIR AND JR. COLLEGE",
+        "completed":"Start Year : 2019 Completion Year 2021",
+        "cgpi":"Precentage 67.83",
+        "imgSrc":"/assets/college.png"
+    }
+]

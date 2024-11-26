@@ -1,0 +1,100 @@
+.about {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.col-detail {
+  display: flex;
+  width: 56.25rem;
+  border: 1px solid yellow;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  padding: 20px;
+  padding-bottom: 0px;
+  margin: 1rem 0;
+  box-shadow: 5px 5px 10px 0px rgba(101, 175, 10, 0.5);
+}
+
+.col-detail .eduleft img {
+  width: 15.625rem; 
+}
+
+.col-detail .eduright {
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+      width: 90%; 
+  }
+
+  .col-detail {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .col-detail .eduleft img {
+      width: 13rem; 
+  }
+
+  .col-detail .eduright {
+      margin: 1.5rem 0;
+      text-align: center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .about {
+      width: 80%;
+  }
+
+  .col-detail {
+      width: 80%;
+      flex-direction: row; 
+  }
+
+  .col-detail .eduleft img {
+      width: 14rem; 
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about {
+      width: 90%; 
+  }
+
+  .col-detail {
+      width: 100%;
+      flex-direction: column;
+      padding: 15px; 
+  }
+
+  .col-detail .eduleft img {
+      width: 12rem; 
+  }
+
+  .col-detail .eduright {
+      margin: 1rem 0;
+      text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+      width: 900px;
+  }
+
+  .col-detail {
+      width: 900px;
+  }
+
+  .col-detail .eduleft img {
+      width: 15rem; 
+  }
+}

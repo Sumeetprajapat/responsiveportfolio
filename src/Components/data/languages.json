@@ -1,0 +1,18 @@
+[
+    {
+        "title":"HTML",
+        "imgsrc":"/assets/html.png"
+    },
+    {
+        "title":"CSS",
+        "imgsrc":"/assets/css.png"
+    },
+    {
+        "title":"JS",
+        "imgsrc":"/assets/javascript.png"
+    },
+    {
+        "title":"React",
+        "imgsrc":"/assets/react.png"
+    }
+]
